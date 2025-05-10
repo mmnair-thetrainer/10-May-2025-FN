@@ -42,3 +42,9 @@ if Shapes.shapes == "tri":
 if Shapes.shapes == "cir":
     radius = int(input("Radius of Circle: "))
     print( "Area of Circle = " + str(Shapes.add(radius)))
+
+#Pentagon
+if Shapes.shapes=="pentagon":
+    apothem=int(input("apothem of pentagon: "))
+    perimeter=int(input("perimeter of pentagon:"))
+    print("Area of Pentagon="+str(Shapes.add(apothem,perimeter)))
