@@ -2,7 +2,7 @@
 class Shapes:
     shapes = ''
     def __init__(self):
-        Shapes.shapes=input("Enter shape [sqr, rec, tri,cir,pentagon,hexagon] : ")
+        Shapes.shapes=input("Enter shape [sqr, rec, tri,cir,pentagon,hexagon,octagon] : ")
 
     def add(*args):
         answer = 1
